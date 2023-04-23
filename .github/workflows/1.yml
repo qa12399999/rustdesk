@@ -14,4 +14,4 @@ jobs:
       upload-artifact: true
     runs-on:
       group: ubuntu-runners
-      labels: 123
+      labels: X64
