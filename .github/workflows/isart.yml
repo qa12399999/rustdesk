@@ -1,4 +1,4 @@
-name: 1
+name: isart
 
 on:
   schedule:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   run-flutter-nightly-build:
-    uses: ./.github/workflows/1-build.yml
+    uses: ./.github/workflows/isart-build.yml
     secrets: inherit
     with:
       upload-artifact: true
