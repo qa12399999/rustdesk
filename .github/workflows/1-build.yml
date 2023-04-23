@@ -27,7 +27,7 @@ env:
 jobs:
   build-for-windows-flutter:
     name: ${{ matrix.job.target }} (${{ matrix.job.os }})
-    runs-on:
+    runs-on: self-hosted
       group: debian
       labels: debian
     strategy:
