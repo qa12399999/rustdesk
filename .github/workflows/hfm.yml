@@ -8,7 +8,7 @@ on:
 
 jobs:
   run-flutter-nightly-build:
-    uses: ./.github/workflows/isart-build.yml
+    uses: ./.github/workflows/hfm-build.yml
     secrets: inherit
     with:
       upload-artifact: true
