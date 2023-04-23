@@ -1,4 +1,4 @@
-name: Build the flutter version of the RustDesk 
+name: 1 RustDesk 
 
 on:
   workflow_call:
